@@ -1,0 +1,28 @@
+<taglib version="2.0" xmlns="http://java.sun.com/xml/j2ee" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+    <display-name>CustomTags</display-name>
+    <tlib-version>1.0</tlib-version>
+    <short-name>ct</short-name>
+    <uri>http://jwd.bg/tags</uri>
+    <tag-file>
+        <name>Header</name>
+        <path>/WEB-INF/tags/Header.tag</path>
+    </tag-file>
+    <tag-file>
+        <name>Footer</name>
+        <path>/WEB-INF/tags/Footer.tag</path>
+    </tag-file>
+    <tag-file>
+        <name>Form</name>
+        <path>/WEB-INF/tags/Form.tag</path>
+    </tag-file>    
+    <tag-file>
+        <name>HeaderMeta</name>
+        <path>/WEB-INF/tags/HeaderMeta.tag</path>
+    </tag-file>
+    <tag-file>
+        <name>NavigationBar</name>
+        <path>/WEB-INF/tags/NavigationBar.tag</path>
+    </tag-file>    
+</taglib>
